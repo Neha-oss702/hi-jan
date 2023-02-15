@@ -1,20 +1,11 @@
-pipeline {  
-    agent any  
-    stages {  
-            stage ('Build') {  
-                ...  
-            }  
-            stage ('Test') {  
-                ...  
-            }  
-            stage ('QA') {  
-                ...  
-            }  
-            stage ('Deploy') {  
-                ...  
-            }  
-            stage ('Monitor') {  
-                ...  
-            }  
-    }  
-}  
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'well come to new word   World'
+            }
+        }
+    }
+}
